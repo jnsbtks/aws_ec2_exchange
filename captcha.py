@@ -1,3 +1,5 @@
 import sys
 
-print('passed args', sys.argv)
+image = sys.argv[1]
+
+print(image)
