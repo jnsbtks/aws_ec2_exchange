@@ -10,7 +10,7 @@ solver = TwoCaptcha('2e76b87ebfb0c83b4aa02d14f6043d71')
 res = solver.normal(image)
 
 while res == "":
-  time.sleep(3)
+  time.sleep(1)
   
   
 print(res)
