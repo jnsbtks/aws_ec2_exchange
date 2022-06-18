@@ -1,4 +1,5 @@
 import sys
+import time
 from twocaptcha import TwoCaptcha
 
 image = sys.argv[1]
